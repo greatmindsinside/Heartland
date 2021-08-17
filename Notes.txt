@@ -1,0 +1,21 @@
+Can no longer use absolute paths for config file in 5.14.x #4585
+https://github.com/webdriverio/webdriverio/issues/4585
+
+1. Install NodeJS: --> Download from: https://nodejs.org/en/download/
+2. Check NodeJS Version: --> node -v 
+2. Install TypeScript via NPM: --> npm install typescript --save-dev
+3. Check TypeScript version installed: --> tsc -v 
+4. Install TS-Node: npm install typescript ts-node --save-dev 
+5. Create tsconfig.json: tsc --init
+6. Add to tsconfig.json: "types": ["node", "webdriverio/async", "@wdio/cucumber-framework", "expect-webdriverio",]
+7. Install Cucumber.js via NPM: npm install  --save-dev cucumber
+8. Install Types:  npm i --save-dev @types/cucumber
+8. Install Chai Assertions Library via NPM: npm install --save-dev chai
+9. npm i -D @types/cucumber @types/chai
+8. Install: Cucumber (Gherkin) Full Support https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete
+
+
+
+
+
+Steps to Start: npx wdio ./wdio.conf.ts

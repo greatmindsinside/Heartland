@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/cucumber": "^7.0.0",
+    "@wdio/allure-reporter": "^7.9.1",
+    "@wdio/cucumber-framework": "^7.9.1",
+    "@wdio/local-runner": "^7.9.1",
+    "@wdio/spec-reporter": "^7.9.0",
+    "chai": "^4.3.4",
+    "chromedriver": "^92.0.1",
+    "cucumber": "^7.0.0-rc.0",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5",
+    "wdio-chromedriver-service": "^7.2.0"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.9.1",
+    "cucumber-tsflow": "^4.0.0-preview.7"
+  },
+  
+  "scripts": {
+    "start": "npx wdio ./wdio.conf.ts"    
+  }
+
+}
