@@ -12,17 +12,9 @@ Then(/^change the size$/, async () => { await SearchPage.SelectSize(); });
 Then(/^add it to the cart$/, async () => { await SearchPage.AddItemToCart(); });
 Then(/^proceed to checkout$/, async () => { await SearchPage.CheckOut(); });
 
-
-
-
 Then(/^I should see a message saying (.*)$/, async (message: string) => {
     await expect(SearchPage.errorMessage).toBeExisting();
     await expect(SearchPage.errorMessage).toHaveTextContaining(message);
 });
 
-// Given I am on the homepage page
-// When I type "dress" into the search box 
-// Then click on search 
-// Then select a dress
-// Then change the size  
-// Then add it to the cart
+
