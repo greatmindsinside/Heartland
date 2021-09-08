@@ -14,8 +14,4 @@ https://github.com/webdriverio/webdriverio/issues/4585
 9. npm i -D @types/cucumber @types/chai
 8. Install: Cucumber (Gherkin) Full Support https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete
 
-
-
-
-
 Steps to Start: npx wdio ./wdio.conf.ts
